@@ -1,54 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <meta name="description" content="News Website using Display Grid">
-  <meta name="keywords" content="Practice Website news articles">
-  <meta name="author" content="Kenneth Garcia">
-  <!--Font Awesome CDN-->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
-  integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
-  crossorigin="anonymous" referrerpolicy="no-referrer" />
-  <!--Custom style sheets-->
-  <link rel="stylesheet" href="./Resources/CSS/reset.css" type="text/css">
-  <link rel="stylesheet" href="./Resources/CSS/style.css" type="text/css">
-  <link rel="stylesheet" media="screen and (max-width: 768px)" href="./Resources/CSS/mobile.css" type="text/css">
-  <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
-  <title>NewsGrid | Home</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="description" content="News Website using Display Grid">
+    <meta name="keywords" content="Practice Website news articles">
+    <meta name="author" content="Kenneth Garcia">
+    <!--Font Awesome CDN-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!--Custom style sheets-->
+    <link rel="stylesheet" href="./Resources/CSS/reset.css" type="text/css">
+    <link rel="stylesheet" href="./Resources/CSS/style.css" type="text/css">
+    <link rel="stylesheet" media="screen and (max-width: 768px)" href="./Resources/CSS/mobile.css" type="text/css">
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+    <title>NewsGrid | Home</title>
 </head>
 <body>
-  <header>
-    <div class="container">
-      <nav id="navbar">
-        <div id="logo">
-          <img src="./Resources/IMG/img-name-Here" width="100px" height="100px"/>
-        </div><!--end of navbar-->
-        <ul id="nav-list">
-          <li class="nav-item"><a href="#">Home</a></li>
-          <li class="nav-item"><a href="#">Services</a></li>
-          <li class="nav-item"><a href="#">About Us</a></li>
-          <li class="nav-item"><a href="#">Contact Us</a></li>
-        </ul><!--end of nav-list-->
-      </nav><!--end of nav-->
-    </div><!--end of container-->
-  </header>
-
-  <main>
-    <div class="container">
-      <h1>Hello World!</h1>
-    </div><!--end of container-->
-  </main>
-
-  <footer>
-    <div class="container">
-      <div id="social-media">
-        <h2>Social Links Here</h2>
-      </div><!--end of social-->
-      <p>Company-Name-Here, Copyright &copy; Year-Here</p>
-    </div><!--end of container-->
-  </footer>
-
+    <nav id="main-nav">
+        <div class="container">
+            <img src="./Resources/IMG/logo.png" alt="NewsGrid Logo">
+            <div class="social">
+                <a href="#"><i class="fab fa-facebook fa-2x"></i></a>
+                <a href="#"><i class="fab fa-instagram fa-2x"></i></a>
+                <a href="#"><i class="fab fa-youtube fa-2x"></i></a>
+            </div><!--end of social-->
+            <ul>
+                <li><a class="current" href="index.html"></a></li>
+                <li><a href="about.html"></a></li>
+            </ul>
+        </div><!--end of container-->
+    </nav>
 </body>
 </html>
