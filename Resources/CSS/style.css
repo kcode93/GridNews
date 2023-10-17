@@ -1,0 +1,110 @@
+:root {
+	--primary-color: #c72727;
+	--secondary-color: #f99500;
+	--light-color: #ffffffc3;
+	--dark-color: #333;
+	--hover-color: #c71717bb;
+	--main-font-family: "Lato", sans-serif;
+	--compliment-font-family: "Staatliches", cursive;
+	--max-width: 1800px;
+}
+
+.category {
+	--sports-color: #f99500;
+	--entertainment-color: #a66bbe;
+	--technology-color: #009cff;
+}
+
+body {
+	font-family: var(--main-font-family);
+	line-height: 1.5;
+	background: var(--light-color);
+}
+
+a {
+	color: var(--dark-color);
+	text-decoration: none;
+}
+
+img {
+	width: 100%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-family: var(--compliment-font-family);
+	margin-bottom: 0.55rem;
+	line-height: 1.3;
+}
+
+/*** Utility Classes ****/
+.container {
+	max-width: var(--max-width);
+	margin: auto;
+	padding: 0 2rem;
+}
+
+/** Navigation **/
+#main-nav {
+	background-color: #fff;
+	position: sticky;
+	top: 0;
+	z-index: 2;
+	border-bottom: 0.4rem solid var(--primary-color);
+}
+
+#main-nav .container {
+	display: grid;
+	grid-template-columns: 6fr 3fr 2fr;
+	padding: 1rem;
+	align-items: center;
+}
+
+#main-nav .logo {
+	width: 180px;
+}
+
+#main-nav ul {
+	justify-self: end;
+	display: flex;
+}
+
+#main-nav ul li {
+	margin: 0 0.5rem;
+}
+
+#main-nav ul li a {
+	padding: 1.5rem 1.8rem;
+	font-weight: bold;
+	font-size: 1.3rem;
+	margin-top: 0 1.5rem;
+}
+
+#main-nav ul li a:hover {
+	background-color: var(--hover-color);
+	color: #fff;
+}
+
+#main-nav ul li a.current {
+	background: var(--primary-color);
+	color: #fff;
+}
+
+#main-nav .social {
+	justify-self: center;
+}
+
+#main-nav .social i {
+	color: var(--primary-color);
+	margin-right: 0.5rem;
+}
+
+#main-nav .social i:hover {
+	color: var(--hover-color);
+}
+
+/**** Showcase *****/
