@@ -48,6 +48,66 @@ h6 {
 	padding: 0 2rem;
 }
 
+.category {
+	display: inline-block;
+	color: #fff;
+	font-size: 0.8rem;
+	text-transform: uppercase;
+	padding: 0.2rem 1.6rem;
+	border-radius: 15px;
+	margin-bottom: 0.5rem;
+	font-weight: bold;
+}
+
+.category-sports {
+	background: var(--sports-color);
+}
+
+.category-entertainment {
+	background: var(--entertainment-color);
+}
+
+.category-technology {
+	background: var(--technology-color);
+}
+
+.btn {
+	display: inline-block;
+	border: none;
+	background: var(--dark-color);
+	color: #fff;
+	font-size: 1.1rem;
+	font-weight: bold;
+	padding: 1rem 1.8rem;
+	cursor: pointer;
+}
+
+.btn-block {
+	display: block;
+	width: 100%;
+	text-align: center;
+}
+
+.btn:hover {
+	opacity: 0.9;
+	border: 1.5px solid #fff;
+}
+
+.btn-light {
+	background-color: var(--light-color);
+	color: var(--dark-color);
+}
+
+.btn-primary {
+	background-color: var(--primary-color);
+	color: #fff;
+}
+
+.btn-secondary {
+	background-color: var(--secondary-color);
+	color: #fff;
+}
+
 /** Navigation **/
 #main-nav {
 	background-color: #fff;
@@ -108,3 +168,45 @@ h6 {
 }
 
 /**** Showcase *****/
+#showcase {
+	color: #fff;
+	background: var(--dark-color);
+	padding: 2rem;
+	position: relative;
+}
+
+#showcase::before {
+	position: absolute;
+	content: "";
+	background: url(../IMG/featured.jpg) no-repeat center center/cover;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	opacity: 0.4;
+}
+
+.showcase-content {
+	z-index: 1;
+}
+
+.showcase-content p,
+.showcase-content div {
+	font-size: 1.5rem;
+}
+
+.showcase-content p {
+	margin-bottom: 1rem;
+}
+
+.showcase-content h1 {
+	font-size: 3rem;
+}
+
+#showcase .showcase-container {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	justify-content: center;
+	align-items: center;
+	height: 50vh;
+}
