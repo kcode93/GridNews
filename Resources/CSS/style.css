@@ -90,7 +90,7 @@ h6 {
 
 .btn:hover {
 	opacity: 0.9;
-	border: 1.5px solid #fff;
+	text-decoration: underline;
 }
 
 .btn-light {
@@ -134,14 +134,13 @@ h6 {
 }
 
 #main-nav ul li {
-	margin: 0 0.5rem;
+	margin: 0 0.2rem;
 }
 
 #main-nav ul li a {
-	padding: 1.5rem 1.8rem;
+	padding: 1.2rem 1.8rem;
 	font-weight: bold;
-	font-size: 1.3rem;
-	margin-top: 0 1.5rem;
+	font-size: 1.2rem;
 }
 
 #main-nav ul li a:hover {
@@ -173,6 +172,7 @@ h6 {
 	background: var(--dark-color);
 	padding: 2rem;
 	position: relative;
+	overflow: hidden;
 }
 
 #showcase::before {
@@ -184,6 +184,7 @@ h6 {
 	width: 100%;
 	height: 100%;
 	opacity: 0.4;
+	overflow: hidden;
 }
 
 .showcase-content {
