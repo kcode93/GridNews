@@ -202,6 +202,14 @@ h6 {
 	padding: 3rem;
 }
 
+.bold {
+	font-weight: bold;
+}
+
+.bold a {
+	font-weight: bold;
+}
+
 .list li {
 	padding: 0.5rem 0;
 	border-bottom: 1px solid #555;
@@ -385,4 +393,18 @@ h6 {
 
 #main-footer .footer-container input[type="submit"] {
 	width: 90%;
+}
+
+/*Articles*/
+
+#article .meta {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background: #eee;
+	padding: 0.5rem;
+}
+
+#article .meta .category {
+	margin-top: 0.5rem;
 }
